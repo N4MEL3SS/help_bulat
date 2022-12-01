@@ -1,4 +1,6 @@
 #include <iostream>
+#include "../list_class/list_class.hpp"
+
 
 #define DEF 20
 
@@ -222,3 +224,4 @@ int main(){
 		  " deck uses different areas of memory)" << endl;
 	return 0;
 }
+
