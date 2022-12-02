@@ -8,6 +8,7 @@ add_executable(list List/list.hpp List/main.cpp List/TestList.cpp List/TestList.
 add_executable(tree Tree/main3.cpp)
 add_executable(list_class list_class/list_class.cpp list_class/list_class.hpp list_class/main.cpp)
 add_executable(deque_bulat Deque/deck2.cpp)
+add_executable(tree_new Tree/mainnew.cpp)
 
-target_compile_options(list_class PRIVATE -fsanitize=address)
-target_link_options(list_class PRIVATE -fsanitize=address)
+target_compile_options(tree_new PRIVATE -fsanitize=address)
+target_link_options(tree_new PRIVATE -fsanitize=address)
