@@ -45,13 +45,11 @@ int main() {
 		cout << "the number is 0 or negative" << endl;
 		return 1;
 	}
-	cout << "please enter element" << endl;
-	cin >> number;
+	srand(time(NULL));
+	number = rand() % 100;
 	root = create_elem(number);
 	++height;
 	for (int i = 1; i < count; i++) {
-		cout << "please enter next element" << endl;
-		cin >> number;
 		number = rand() % 100;
 		kol = 1;
 		current = root;
